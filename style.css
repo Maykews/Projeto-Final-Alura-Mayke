@@ -1,0 +1,94 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Fundo escuro, lembrando o clima urbano de GTA V */
+    color: white;
+}
+
+/* Cabeçalho */
+.site-header {
+    background-color: #111; /* Cor escura para o cabeçalho */
+    color: #f4a261; /* Cor amarelada que lembra a estética de GTA */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Seção de chamada */
+.chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #444; /* Cor de fundo escura, mais sóbria */
+    color: white;
+}
+
+.chamada-texto {
+    text-align: center;
+}
+
+.chamada h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hashtag {
+    font-size: 1.2rem;
+    color: #ff6347; /* Cor laranja vermelha para destacar as hashtags */
+    margin-top: 10px;
+}
+
+/* Estilo para o vídeo embutido */
+.video-embed iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Seção de vídeos */
+.categoria {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.categoria h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f4a261;
+}
+
+.categoria-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.categoria-videos a {
+    width: 250px;
+    height: auto;
+}
+
+.categoria-videos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
