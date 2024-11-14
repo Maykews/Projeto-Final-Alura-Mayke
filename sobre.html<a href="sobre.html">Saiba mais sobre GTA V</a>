@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - GTA V</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Sobre GTA V</h1>
+    </header>
+
+    <section class="sobre">
+        <h2>Sobre o Jogo</h2>
+        <p>Grand Theft Auto V (GTA V) é um jogo de ação e aventura da Rockstar Games. O jogo se passa na fictícia cidade de Los Santos e seus arredores, inspirada em Los Angeles. O jogador pode alternar entre três protagonistas enquanto percorre uma narrativa repleta de missões e atividades.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
